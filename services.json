@@ -1,0 +1,79 @@
+{
+  "notification": [],
+  "eft": [
+    "trx",
+    "gps-ehi",
+    "card",
+    "jira",
+    "call-context",
+    "merchant"
+  ],
+  "trx": [],
+  "cache-heater-job": [
+    "card"
+  ],
+  "bi": [
+    "card",
+    "trx",
+    "eft",
+    "aml"
+  ],
+  "bi-debits-credits-job": [
+    "bi"
+  ],
+  "gps-print-job": [
+    "card"
+  ],
+  "card": [
+    "notification",
+    "card-activity"
+  ],
+  "aml-pep-sanctions-job": [
+    "card",
+    "aml"
+  ],
+  "bi-balance-job": [
+    "card",
+    "trx"
+  ],
+  "webhooks": [
+    "card",
+    "api"
+  ],
+  "bi-warehouse-job": [
+    "card",
+    "bi",
+    "aml"
+  ],
+  "aml": [
+    "notification",
+    "card",
+    "card-aml-status",
+    "card-application"
+  ],
+  "application": [
+    "api",
+    "notification"
+  ],
+  "merchant": [],
+  "eft-receive-job": [
+    "eft"
+  ],
+  "alert": [
+    "api"
+  ],
+  "gps-ehi": [
+    "trx",
+    "card",
+    "card-activity"
+  ],
+  "eft-send-job": [
+    "eft"
+  ],
+  "api": [
+    "card",
+    "gps",
+    "card-activity",
+    "trx"
+  ]
+}
